@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cookie', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto+Mono:wght@600&family=Ubuntu&display=swap') ;
+    font-weight: normal;
+}
+@font-face {
+    font-family:'Roboto Mono', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto+Mono:wght@600&family=Ubuntu&display=swap');
+}
+
+body{
+    background-color: white;
+    font-family: ;
+}
