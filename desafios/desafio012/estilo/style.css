@@ -67,7 +67,9 @@ section{
     font-size: 3.5vw;
     
 }
-
+section > p{
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -75,24 +77,35 @@ section.normal {
 section.imagem{
     background-color: rgb(49, 45, 45);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
 }
-
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--fonte1);
+    font-size: 1vw;
 }
 
-}
-@font-face {
-    font-family:'Roboto Mono', monospace;
-    src: url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto+Mono:wght@600&family=Ubuntu&display=swap');
-}
+
+
 
